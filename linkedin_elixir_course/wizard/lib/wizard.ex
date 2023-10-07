@@ -8,11 +8,12 @@ defmodule Wizard do
 
   ## Examples
 
-      iex> Wizard.hello()
-      :world
+      iex> Wizard.hello(name)
+      :"Hello, name"
 
   """
   def hello(name) do
     "Hello, #{name}"
   end
+
 end
